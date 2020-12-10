@@ -86,8 +86,20 @@ h6 {
 .navbar-dark .navbar-nav .nav-link.active::after {
 	width: 50%;
 }
+#clouds{
+	margin-top: -5%;
+	position: relative;
+	z-index: 1;
+}
+#clouds path {
+    fill: #ffffff;
+    bottom: -10px;
+    overflow: hidden;
+    stroke: #ffffff;
+}
 
 /* SECTIONS*/
+
 
 .main-banner{
 	height: 100%;
@@ -150,7 +162,7 @@ h6 {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 35px 0;
     line-height: normal;
 }
 
@@ -220,4 +232,34 @@ h6 {
 
 .post-box{
 	margin-bottom: 2.5rem;
+}
+.container1{
+    background-color: #0e1f08;
+    color: #ffffff;
+    padding-top: 0;
+    text-align: center;
+    position: relative;
+}
+
+.link{
+    color: #ffffff;
+}
+
+.page-footer{
+    background-color: #0e1f08;
+}
+
+.contacts{
+    background-color: #0e1f08;
+}
+
+.follow{
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.linkh2{
+    color: #ffffff;
+    padding-bottom: 20px;
 }
