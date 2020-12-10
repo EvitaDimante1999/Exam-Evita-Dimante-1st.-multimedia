@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+
+
+body {
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 10px;
+}
+
+html, body{
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 15px 0 10px 0;
+    font-weight: normal;
+    line-height: 120%;
+    color: #333333;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+/*text in body*/
+
+.navbar-dark .nav-link{
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-size: 14px;
+	position: relative;
+}
+.navbar-dark .nav-link:hover{
+	color: #ffffff;
+}
+.navbar-dark .nav-link.active{
+	font-weight: 600;
+}
+.navbar-dark .nav-link::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+    border-radius: 0px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: -1;
+}
+.navbar-dark .navbar-nav .nav-link.active::after {
+	width: 50%;
+}
+
+/* SECTIONS*/
+
+.main-banner{
+	height: 100%;
+	position: relative;
+}
+
+.main-banner{
+	display: table;
+    width: 100%;
+	text-align: center;
+}
+.main-banner::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 0;
+    opacity: .3;
+}
+
+.heading{
+	color: #fff;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+	position: relative;
+	z-index: 1;
+}
+
+.heading h1{
+    margin-top: 20rem;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 62px;
+    text-transform: uppercase;
+    padding-left: 3.5rem;
+}
+
+
+.heading p{
+	font-size: 18px;
+    padding-left: 3.5rem;
+    line-height: normal;
+}
+
+.heading h3{
+	color: ffffff;
+}
+
+#mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0e1f08;
+}
+
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+    line-height: normal;
+}
+
+.col-md-4{
+    line-height: 2rem;
+    text-align: center;
+}
+
+.first-section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 16em 0 13em;
+}
+
+.first-section h2 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+}
+
+.first-section .lead {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 0 0 40px;
+    margin: 0;
+    line-height: inherit;
+    color: #ffffff;
+}
+
+
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: #999;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.more {
+	display: none;
+}
+  
+.service-item.open .more {
+	display: inline;
+}
+  
+.service-item.open .dots {
+	display: none;
+}
+
+.btn{
+	color: #ffffff;
+	background-color: #0e1f08;
+}
+
+.post-box{
+	margin-bottom: 2.5rem;
+}
